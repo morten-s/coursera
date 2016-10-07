@@ -1,0 +1,17 @@
+{
+  "name": "mod2",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "morten-s <ms@meetpeople.dk>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/morten-s/coursera-spwa",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
