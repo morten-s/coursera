@@ -34,7 +34,7 @@
         var service = this;
 
         // List of shopping items
-        var itemsToBuy = [{name: "Cookies", quantity: 5}, {name: "Super Cookies", quantity: 15}, {name: "Extreme Cookies", quantity: 5}];
+        var itemsToBuy = [{name: "Blue Cookies", quantity: 25},{name: "Brown Cookies", quantity: 35},{name: "Cookies", quantity: 5}, {name: "Super Cookies", quantity: 15}, {name: "Extreme Cookies", quantity: 5}];
         var itemsBought = [];
         service.addItem = function (itemName, quantity) {
             var item = {
