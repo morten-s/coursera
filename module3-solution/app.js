@@ -68,6 +68,9 @@
                 promise.then(function(response) {
                         menu.menuItems = response;
                         console.log("NarrowitemsList: " + menu.menuItems.length);
+                        if (menu.menuItems.length == 0){
+                            menu.emptyError = "Nothing found";
+                        }
                     })
                     .catch(function(error) {
                         console.log(error);
