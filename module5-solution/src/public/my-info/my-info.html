@@ -1,0 +1,24 @@
+<div class="container" ng-controller="MyinfoController as info">
+    <div ng-if="!info.user">
+        <a ui-sref="public.sign-up">
+          <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Sign Up</a>
+    </div>
+    <div id="info" ng-if="info.user">
+        Your registered information
+        <br>
+        Username:
+        {{ info.user.firstname}} {{ info.user.lastname}}
+        <br>
+        Email:
+        {{ info.user.email}}
+        <br>
+        Phone:
+        {{ info.user.phone }}
+        <br>
+        Favorit dish
+        {{ info.user.short_name}}
+        <br>
+        <menu-item menu-item="info.item">
+        </menu-item>
+    </div>
+</div>
